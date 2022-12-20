@@ -13,8 +13,8 @@
           </div>
         </div>
         <q-separator></q-separator>
-        <div class="row q-mt-sm q-mb-md">
-          <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12 centered-text q-mt-md">
+        <div class="row q-mt-sm q-mb-md justify-center">
+          <div class="col-xl-4 col-lg-4 col-md-4 col-xs-12 centered-text q-mt-md">
             <div class="card-deck">
               <div class="card-proyect text-white shadow-9">
                 <img class="card-img" src="/images/python-app.png"/>
@@ -30,7 +30,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12 centered-text q-mt-md">
+          <div class="col-xl-4 col-lg-4 col-md-4 col-xs-12 centered-text q-mt-md">
             <div class="card-deck pointer" >
               <div class="card-proyect text-white shadow-9">
                 <img class="card-img" src="/images/react-laravel-app.png"/>
@@ -49,7 +49,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12 centered-text q-mt-md">
+          <div class="col-xl-4 col-lg-4 col-md-4 col-xs-12 centered-text q-mt-md">
             <div class="card-deck pointer">
               <div class="card-proyect text-white shadow-9" >
                 <img class="card-img" src="/images/vue-app.png"/>
@@ -78,7 +78,7 @@
         </div>
         <q-separator></q-separator>
         <div class="row q-col-gutter-md q-mt-md q-mb-md q-pr-xl q-pl-xl justify-center">
-          <div class="col-6">
+          <div class="col-xl-6 col-lg-6 col-xs-12">
             <p >
               Ingeniero civil en informática y telecomunicaciones de la Universidad Diego Portales en Chile, con más de 3 años de experiencia desarrollando aplicaciones principalmente como FrontEnd utilizando React o Vue para el rubro de la minería realizando
               tareas de automatización de procesos matemáticos, generación de reportes, creando nuevas herramientas como manteniendo previas a través de nuevos módulos para las distintas herramientas desarrolladas para los
