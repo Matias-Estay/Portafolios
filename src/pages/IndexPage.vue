@@ -17,7 +17,7 @@
     </div>
     <q-separator></q-separator>
     <div class="row q-mt-sm q-mb-md">
-      <div class="col-xl-4 col-lg-6 col-md-6 col-xs-12 centered-text q-mt-md">
+      <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12 centered-text q-mt-md">
         <div class="card-deck">
           <div class="card-proyect text-white shadow-9">
             <img class="card-img" src="https://placeimg.com/512/512/any?t=1542453427022"/>
@@ -34,7 +34,7 @@
           </div>
         </div>
       </div>
-      <div class="col-xl-4 col-lg-6 col-md-6 col-xs-12 centered-text q-mt-md">
+      <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12 centered-text q-mt-md">
         <div class="card-deck pointer" >
           <div class="card-proyect text-white shadow-9">
             <img class="card-img" src="/images/react-laravel-app.png"/>
@@ -53,7 +53,7 @@
           </div>
         </div>
       </div>
-      <div class="col-xl-4 col-lg-6 col-md-6 col-xs-12 centered-text q-mt-md">
+      <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12 centered-text q-mt-md">
         <div class="card-deck pointer">
           <div class="card-proyect text-white shadow-9" >
             <img class="card-img" src="/images/vue-app.png"/>
