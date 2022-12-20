@@ -1,1 +1,39 @@
 // app global css in SCSS form
+.card-img-overlay{
+  transform: translateY(-8rem);
+  transition: transform .18s ease-out;
+  background-color: rgba(0, 0, 0, 0.583);
+  .card-text{
+    opacity:0;
+    transform: translateY(-30rem);
+    transition: opacity .05s ease-out, transform .25s ease-out;
+    bottom: 0;
+  }
+}
+.card{
+  overflow: hidden;
+  background-color: #345;
+  height: 400px;
+  width: 400px;
+ .card-img{
+  width: 100%;
+ }
+ &:hover{
+   .card-img{
+     mix-blend-mode: overlay;
+   }
+   .card-img-overlay{
+     transform: translateY(0);
+     transition: transform .25s ease-out;
+     background-color: rgba(0,0,0,.5);
+   }
+   .card-text{
+     opacity: 1;
+     padding-right: 2rem;
+     padding-left: 2rem;
+     transform: translateX(0.5);
+     transition: opacity .5s ease-out, transform .2s ease-out;
+   }
+
+ }
+}

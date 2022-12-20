@@ -7,7 +7,7 @@
       <h1 class="text-white">Matías Ignacio Estay Cubillos</h1>
     </q-parallax>
     </div>
-    <div class="row" style="height:1000px">
+    <div class="row">
       <div class="col-12 flex flex-center q-mt-xl text-h5">
         <div class="container-title">
           <img src="../assets/images/backtitle.png" :style="{'max-width':'26%', 'opacity':'0.1'}"/>
@@ -17,14 +17,53 @@
     </div>
     <q-separator></q-separator>
     <div class="row q-mt-sm q-mb-sm">
-      <div class="col-4 text-center">
-        1
+      <div class="col-4 centered-text">
+        <div class="card-deck">
+          <div class="card text-white shadow-9"><img class="card-img" src="https://placeimg.com/512/512/any?t=1542453427022"/>
+            <div class="card-img-overlay">
+              <h2 class="card-title">test 1</h2>
+              <p class="card-text">
+                What is Lorem Ipsum?
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+                unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+                including versions of Lorem Ipsum.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-4 text-center">
-        2
+      <div class="col-4 centered-text">
+        <div class="card-deck">
+          <div class="card text-white shadow-9"><img class="card-img" src="https://placeimg.com/512/512/any?t=1542453427022"/>
+            <div class="card-img-overlay">
+              <h2 class="card-title">test 1</h2>
+              <p class="card-text">
+                What is Lorem Ipsum?
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+                unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+                including versions of Lorem Ipsum.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-4 text-center">
-        3
+      <div class="col-4 centered-text">
+        <div class="card-deck">
+          <div class="card text-white shadow-9"><img class="card-img" src="https://placeimg.com/512/512/any?t=1542453427022"/>
+            <div class="card-img-overlay">
+              <h2 class="card-title">test 1</h2>
+              <p class="card-text">
+                What is Lorem Ipsum?
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+                unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+                including versions of Lorem Ipsum.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <q-separator></q-separator>
@@ -109,14 +148,14 @@ export default defineComponent({
   name: 'IndexPage',
   setup () {
     const links = ref([
-      { src: 'public/icons/bootstrap-logo.png', name: 'Bootstrap', version: 'version: 4 to version: 5' },
-      { src: 'public/icons/vue-logo.png', name: 'Vue', version: 'version: 2.7 to version: 3' },
-      { src: 'public/icons/laravel-logo.png', name: 'Laravel', version: 'version: 6 to version: 9' },
-      { src: 'public/icons/quasar-logo.png', name: 'Quasar', version: 'version: 2.11.1' },
-      { src: 'public/icons/react-logo.png', name: 'React', version: 'version: 17' },
-      { src: 'public/icons/material-ui-logo.png', name: 'Material UI', version: 'version: 5.11.0' },
-      { src: 'public/icons/digital-ocean-logo.png', name: 'Digital Ocean', version: 'service' },
-      { src: 'public/icons/forge-logo.png', name: 'Laravel Forge', version: 'service' }
+      { src: '/icons/bootstrap-logo.png', name: 'Bootstrap', version: 'version: 4 to version: 5' },
+      { src: '/icons/vue-logo.png', name: 'Vue', version: 'version: 2.7 to version: 3' },
+      { src: '/icons/laravel-logo.png', name: 'Laravel', version: 'version: 6 to version: 9' },
+      { src: '/icons/quasar-logo.png', name: 'Quasar', version: 'version: 2.11.1' },
+      { src: '/icons/react-logo.png', name: 'React', version: 'version: 17' },
+      { src: '/icons/material-ui-logo.png', name: 'Material UI', version: 'version: 5.11.0' },
+      { src: '/icons/digital-ocean-logo.png', name: 'Digital Ocean', version: 'service' },
+      { src: '/icons/forge-logo.png', name: 'Laravel Forge', version: 'service' }
     ])
     const MailTo = () => {
       window.location.href = 'mailto:mestaycubillos@gmail.com'
