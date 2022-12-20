@@ -19,7 +19,8 @@
     <div class="row q-mt-sm q-mb-sm">
       <div class="col-4 centered-text">
         <div class="card-deck">
-          <div class="card-proyect text-white shadow-9"><img class="card-img" src="https://placeimg.com/512/512/any?t=1542453427022"/>
+          <div class="card-proyect text-white shadow-9">
+            <img class="card-img" src="https://placeimg.com/512/512/any?t=1542453427022"/>
             <div class="card-img-overlay">
               <h2 class="card-title">test 1</h2>
               <p class="card-text-proyect">
@@ -35,7 +36,8 @@
       </div>
       <div class="col-4 centered-text">
         <div class="card-deck pointer" @click="()=>{window.open('https://miec.live')}" >
-          <div class="card-proyect text-white shadow-9"><img class="card-img" src="/images/react-laravel-app.png"/>
+          <div class="card-proyect text-white shadow-9">
+            <img class="card-img" src="/images/react-laravel-app.png"/>
             <div class="card-img-overlay">
               <h2 class="card-title">Pokédex</h2>
               <p class="card-text-proyect">
@@ -49,10 +51,11 @@
         </div>
       </div>
       <div class="col-4 centered-text">
-        <div class="card-deck">
-          <div class="card-proyect text-white shadow-9"><img class="card-img" src="https://placeimg.com/512/512/any?t=1542453427022"/>
+        <div class="card-deck pointer">
+          <div class="card-proyect text-white shadow-9" @click="()=>{window.open('https://miecvue3.netlify.app')}">
+            <img class="card-img" src="/images/vue-app.png"/>
             <div class="card-img-overlay">
-              <h2 class="card-title">test 1</h2>
+              <h2 class="card-title">Vue 3</h2>
               <p class="card-text-proyect">
                 What is Lorem Ipsum?
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
