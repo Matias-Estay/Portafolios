@@ -39,7 +39,7 @@
             <div class="card-img-overlay">
               <h2 class="card-title">Pokédex</h2>
               <p class="card-text-proyect">
-                Una pequeña aplicación con tematica de pokémon desarrollada usando React 17, Laravel 9 y una base de datos MySQL.
+                Una pequeña aplicación con temática de Pokémon desarrollada usando React 17, Laravel 9 y una base de datos MySQL.
                 <br/>
                 <br/>
                 Se usó el servicio de nube de Digital Ocean y Laravel Forge para CI/CD
@@ -160,7 +160,7 @@ export default defineComponent({
       window.location.href = 'mailto:mestaycubillos@gmail.com'
     }
     const Download = () => {
-      window.open('public/files/CV_Matias_Estay_Cubillos.pdf')
+      window.open('/files/CV_Matias_Estay_Cubillos.pdf')
     }
     return {
       links,
