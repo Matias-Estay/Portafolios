@@ -16,8 +16,8 @@
       </div>
     </div>
     <q-separator></q-separator>
-    <div class="row q-mt-sm q-mb-sm">
-      <div class="col-4 centered-text">
+    <div class="row q-mt-sm q-mb-md">
+      <div class="col-xl-4 col-lg-6 col-md-6 col-xs-12 centered-text q-mt-md">
         <div class="card-deck">
           <div class="card-proyect text-white shadow-9">
             <img class="card-img" src="https://placeimg.com/512/512/any?t=1542453427022"/>
@@ -34,34 +34,39 @@
           </div>
         </div>
       </div>
-      <div class="col-4 centered-text">
+      <div class="col-xl-4 col-lg-6 col-md-6 col-xs-12 centered-text q-mt-md">
         <div class="card-deck pointer" >
-          <div class="card-proyect text-white shadow-9" @click="Redirect(1)">
+          <div class="card-proyect text-white shadow-9">
             <img class="card-img" src="/images/react-laravel-app.png"/>
             <div class="card-img-overlay">
               <h2 class="card-title">Pokédex</h2>
               <p class="card-text-proyect">
-                Una pequeña aplicación con temática de Pokémon desarrollada usando React 17, Laravel 9 y una base de datos MySQL.
+                Una aplicación con temática de Pokémon desarrollada usando <strong>React 17</strong>, <strong>Laravel 9</strong> y una base de datos <strong>MySQL</strong>.
                 <br/>
                 <br/>
                 Se usó el servicio de nube de Digital Ocean y Laravel Forge para CI/CD
+                <br/>
+                <br/>
+                <q-btn @click="Redirect(1)" style="background: rgb(13, 17, 21); color: white" :label="'Ir al Sitio'" />
               </p>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-4 centered-text">
+      <div class="col-xl-4 col-lg-6 col-md-6 col-xs-12 centered-text q-mt-md">
         <div class="card-deck pointer">
-          <div class="card-proyect text-white shadow-9" @click="Redirect(2)">
+          <div class="card-proyect text-white shadow-9" >
             <img class="card-img" src="/images/vue-app.png"/>
             <div class="card-img-overlay">
               <h2 class="card-title">Vue 3</h2>
               <p class="card-text-proyect">
-                What is Lorem Ipsum?
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
-                unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
-                including versions of Lorem Ipsum.
+                  Primera app desarrollada como boceto para la aplicación "Pokédex", esta hecha en <strong>Vue 2.7</strong> y actualizada a <strong>Vue 3</strong> utilizando <strong>Bootstrap 5</strong>.
+                  <br/>
+                  <br/>
+                  Consume una API para la carga de información (https://pokeapi.co)  y está montada en Netlify
+                <br/>
+                <br/>
+                <q-btn @click="Redirect(2)" style="background: rgb(13, 17, 21); color: white" :label="'Ir al Sitio'" />
               </p>
             </div>
           </div>
@@ -78,7 +83,7 @@
       </div>
     </div>
     <q-separator></q-separator>
-    <div class="row separator q-col-gutter-md q-mt-sm q-mb-sm">
+    <div class="row separator q-col-gutter-md q-mt-md q-mb-md">
       <div v-for="(item, index) in links" :key="index" class="col-xl-3 col-lg-4 col-md-4 col-xs-6 text-center">
         <q-intersection
           transition="scale"
