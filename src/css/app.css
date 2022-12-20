@@ -27,6 +27,10 @@
   background-color: black;
 }
 
+a:visited {
+  color:white;
+}
+
 a:active {
   color: white;
 }
