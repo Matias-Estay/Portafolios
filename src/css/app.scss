@@ -5,7 +5,7 @@
   background-color: rgba(0, 0, 0, 0.583);
   .card-text-proyect{
     opacity:0;
-    transform: translateY(-30rem);
+    transform: translateY(-28rem);
     transition: opacity .05s ease-out, transform .25s ease-out;
     bottom: 0;
   }
@@ -13,11 +13,11 @@
 .card-proyect{
   overflow: hidden;
   background-color: rgb(13, 17, 21);
-  height: 400px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
  .card-img{
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
  }
  &:hover{
    .card-img{

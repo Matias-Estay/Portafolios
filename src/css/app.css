@@ -39,3 +39,12 @@ a:active {
   border-right: solid 1px #fff;
   position: relative;
 }
+
+.background {
+  background-image:url("../assets/images/background.png");
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
