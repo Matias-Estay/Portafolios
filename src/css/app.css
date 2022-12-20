@@ -63,4 +63,5 @@ a:active {
 }
 .gentium{
   font-family:'gentium';
+  text-shadow: 0.01px 0 0 #000, 0 -0.1px 0 #000, 1px 0px 0 #000, -0.1px 0 0 #000;
 }

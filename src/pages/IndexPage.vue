@@ -3,9 +3,9 @@
     <div class="row justify-center fit">
       <div class="background fit" :style="{height:height+ 'px !important'}"
       >
-        <h1 class="full-width absolute text-white text-center gentium" style="height:464px; top:2%">Matías Ignacio Estay Cubillos</h1>
+        <h1 class="full-width absolute text-white text-center gentium" style="top:2%;margin: 0;">Matías Ignacio Estay Cubillos</h1>
     </div>
-      <div class="col-xl-11 col-xs-12 absolute" ref="total" style="background-color:white; top:15%">
+      <div class="col-xl-11 col-xs-12 absolute" ref="total" style="background-color:white; top:10%">
         <!-- Proyects -->
         <div class="row">
           <div class="col-12 flex flex-center q-mt-xl text-h5">
@@ -77,26 +77,38 @@
           </div>
         </div>
         <q-separator></q-separator>
-        <div class="row q-col-gutter-md q-mt-md q-mb-md q-pr-xl q-pl-xl">
-          <div class="col-12" style="text-align-last: center;">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices risus nec mi sollicitudin, aliquet mollis augue tristique. Mauris condimentum iaculis ultricies. Pellentesque eu leo ipsum. Ut semper ipsum in tristique rhoncus. Proin tempor rutrum arcu vel imperdiet. Phasellus ullamcorper varius leo, in convallis urna ultrices sed. Integer quis mi ornare, aliquet sapien at, suscipit purus. Mauris consequat commodo purus eu suscipit. Suspendisse non volutpat lorem, eu varius urna. Quisque in luctus erat. Maecenas finibus ut leo quis laoreet. Cras quis interdum massa, ut malesuada magna. Maecenas tempus justo tincidunt velit finibus, ut molestie massa elementum.
-
-Cras porttitor id quam quis sodales. Integer maximus, purus eget viverra lacinia, ligula lectus accumsan eros, eu ornare risus turpis sit amet nulla. Nullam faucibus sem odio, eget sagittis nulla mattis vitae. Duis sodales diam id odio pretium, id placerat dolor pulvinar. Etiam dictum sagittis egestas. Sed ut dolor eget massa bibendum accumsan id non enim. Morbi eget nunc lobortis, ullamcorper mi sed, vestibulum sem. Phasellus tempor auctor metus sed pharetra. Fusce sodales laoreet quam, eget cursus lorem iaculis in.
-
-Duis vel dictum risus, in vehicula elit. Suspendisse id pretium quam. Quisque pellentesque tempor nibh vel tincidunt. Vestibulum et tincidunt sem. Nunc quis risus at nisi mollis pulvinar. Nunc luctus dui id tempor cursus. Praesent sed ipsum eget lorem lacinia efficitur. Praesent at interdum urna.
-
-Quisque non lacus eget est hendrerit lobortis a in nisl. Praesent scelerisque justo sit amet tortor viverra, sit amet rutrum dolor consectetur. Donec hendrerit ligula id tellus varius scelerisque vitae quis eros. Vivamus accumsan, nibh vel tristique sollicitudin, tellus odio feugiat sem, in auctor velit nunc ut quam. Praesent at tristique purus, at ultricies libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur venenatis placerat orci.
-
-Fusce vitae bibendum massa. Vestibulum fermentum, massa a bibendum accumsan, ligula ipsum congue felis, ut posuere elit ante eu eros. Proin justo lorem, volutpat in turpis nec, efficitur cursus metus. Morbi fringilla condimentum laoreet. Donec mattis augue nec leo gravida finibus. Praesent id suscipit urna. Vestibulum mauris neque, hendrerit ut tempor quis, dignissim laoreet lorem. Integer blandit pulvinar eros id iaculis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam ut nulla laoreet, luctus lorem at, varius lacus. Suspendisse et rhoncus lorem. Sed lectus nulla, interdum vitae velit elementum, commodo gravida sapien. Sed rhoncus vestibulum erat, euismod feugiat sem. Nunc ut augue sollicitudin, blandit odio a, vestibulum dolor. Sed quam sem, tincidunt nec eros in, blandit euismod turpis.
-
-Sed vel eleifend dolor. Nunc consequat, quam id sodales dignissim, nisi lectus condimentum tellus, quis posuere purus lacus imperdiet dolor. Ut efficitur egestas sapien, non molestie purus volutpat sit amet. Cras dictum imperdiet nisl, at tincidunt dolor mattis quis. Nulla elementum lacinia orci, nec faucibus ex tincidunt quis. Nunc ac orci in quam mollis venenatis sit amet non arcu. Maecenas mattis, justo eget sodales efficitur, dolor nunc condimentum nibh, et pulvinar dolor tellus ut justo. Duis tincidunt blandit odio, vitae aliquam augue elementum ac. Nullam faucibus pulvinar lectus vitae vehicula. Aenean nunc quam, porta vel libero sed, blandit lobortis neque. Aenean pellentesque turpis sodales, sollicitudin magna quis, gravida quam. In tincidunt accumsan ante vitae accumsan.
-
-Fusce interdum molestie placerat. Donec vel leo eu elit tincidunt semper. Vivamus in luctus lectus, quis sagittis nibh. Nunc hendrerit massa eu nunc feugiat sollicitudin. Curabitur id laoreet magna. Proin turpis diam, venenatis in lacus ut, sollicitudin tempor mi. Morbi cursus justo at orci ultricies lacinia. Fusce auctor lectus a posuere sodales. Vestibulum condimentum felis vitae ipsum lacinia consequat a quis ipsum. In at consectetur purus, vitae posuere nisi. Nunc nec turpis id nisl scelerisque porta.
-
-Proin vitae arcu ut ante efficitur efficitur. Nam id tellus a elit imperdiet lobortis id vitae felis. Duis efficitur ligula id ante malesuada, quis porta dolor sollicitudin. Phasellus pulvinar neque eget tincidunt ornare. Phasellus placerat magna justo, vel bibendum dolor pulvinar in. Etiam condimentum ac ante at mattis. Cras sed pellentesque velit, et cursus turpis. Curabitur elementum felis in dignissim hendrerit. Curabitur id consequat sapien. Nulla condimentum, urna tincidunt scelerisque lacinia, neque arcu dapibus libero, sed vehicula nisi neque sit amet diam. Nulla pharetra neque in quam vestibulum, at sodales sapien venenatis.
-
-Cras a sem a ipsum euismod molestie nec sit amet dui. Phasellus sit amet placerat dolor, quis laoreet turpis. Quisque enim nisi, fermentum et nibh sed, fringilla dictum elit. Maecenas pulvinar nulla nibh, id suscipit arcu posuere id. Phasellus nibh justo, hendrerit at nisi nec, sollicitudin egestas odio. Integer at nunc quam. Mauris mattis consequat dui, ut varius nibh dapibus et. Etiam vehicula, leo vitae vestibulum maximus, dolor lectus faucibus nisi, sed eleifend lacus dui fermentum massa. Integer justo sapien, rutrum vitae elementum vel, pellentesque et leo. Phasellus imperdiet ligula posuere nisi lacinia laoreet. Etiam semper ante interdum, ultricies risus at, malesuada ex. Nam at nisi lacus.
+        <div class="row q-col-gutter-md q-mt-md q-mb-md q-pr-xl q-pl-xl justify-center">
+          <div class="col-6">
+            <p >
+            Ingeniero civíl en informática y telecomunicaciones  de la Universidad Diego Portales en Chile, con más de 3 años de experiencia desarrollando aplicaciones principalmente como FrontEnd utilizando React o Vue para el rubro de la minería realizando
+            tareas de automatización de procesos matemáticos, generación de reportes, creando nuevas herramientas como manteniendo previas a través de nuevos módulos para las distintas herramientas desarrolladas para los
+            grupos disciplinarios dentro de la misma empresa.
+            <br/>
+            Además de realizar labores de FrontEnd tengo experiencia de 2 años trabajando con BackEnd utilizando el framework Laravel y trabajando con bases de datos MySQL, me encanta trabajar y aprender
+            tecnologías nuevas, por lo que busco oportunidades que me permitan poner en práctica todo lo aprendido por mi cuenta o por mis pares.
+            <br/>
+            Me gusta trabajar en equipos variados que me permitan conocer nuevas personas y poder compartir profesionalmente.
+            </p>
+            <ul>
+              Logros Laborales:
+              <li>
+                Levantar junto al  equipo informático asignado un sistema integrado unificado con una sola base de datos.
+              </li>
+              <li>
+                Realizar mantención a una aplicación hidráulica en un periodo aproximado de un año, donde la aplicación estuvo en desarrollo por más de 8 años y finalmente en 2021 liberarla a producción.
+              </li>
+              <li>
+                Estandarizar procesos internos de la empresa con los reportes generados por las aplicaciones desarrolladas.
+              </li>
+            </ul>
+            <ul>
+              Logros Personales:
+              <li>
+                Terminar el diplimado en gestión técnica en ciberseguridad
+              </li>
+            </ul>
           </div>
+
         </div>
         <q-separator></q-separator>
         <!-- Skills -->
@@ -108,6 +120,34 @@ Cras a sem a ipsum euismod molestie nec sit amet dui. Phasellus sit amet placera
         <q-separator></q-separator>
         <div class="row separator q-col-gutter-md q-mt-md q-mb-md q-pr-xl q-pl-xl justify-center" >
           <div v-for="(item, index) in links" :key="index" class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12 centered-text">
+            <q-intersection
+              transition="scale"
+              style="height: 300px;width: 300px"
+            >
+                <q-card class="q-ma-sm centered-text">
+                  <img
+                    :src="item.src"
+                    class="q-pt-sm"
+                    style="height: 150px; width: 150px"
+                    />
+                  <q-card-section>
+                    <div class="text-h6">{{item.name }}</div>
+                    <div class="text-subtitle2">{{ item.version }}</div>
+                  </q-card-section>
+                </q-card>
+            </q-intersection>
+          </div>
+        </div>
+        <q-separator></q-separator>
+        <!-- Skills -->
+        <div class="row">
+          <div class="col-12 flex flex-center q-mt-xl text-h5">
+            <div class="faber">Otros Lenguajes y herramientas</div>
+          </div>
+        </div>
+        <q-separator></q-separator>
+        <div class="row separator q-col-gutter-md q-mt-md q-mb-md q-pr-xl q-pl-xl justify-center" >
+          <div v-for="(item, index) in len" :key="index" class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12 centered-text">
             <q-intersection
               transition="scale"
               style="height: 300px;width: 300px"
@@ -181,9 +221,9 @@ import { defineComponent, ref } from 'vue'
 export default defineComponent({
   name: 'IndexPage',
   mounted () {
-    this.height = this.$refs.total.offsetHeight + 500
+    this.height = this.$refs.total.offsetHeight + 400
     window.addEventListener('resize', () => {
-      if (this.$refs.total != null) { this.height = this.$refs.total.offsetHeight + 500 }
+      if (this.$refs.total != null) { this.height = this.$refs.total.offsetHeight + 400 }
     })
   },
   setup () {
@@ -197,6 +237,13 @@ export default defineComponent({
       { src: '/icons/material-ui-logo.png', name: 'Material UI', version: 'version: 5.11.0' },
       { src: '/icons/digital-ocean-logo.png', name: 'Digital Ocean', version: 'service' },
       { src: '/icons/forge-logo.png', name: 'Laravel Forge', version: 'service' }
+    ])
+    const len = ref([
+      { src: '/icons/csharp-logo.png', name: 'C#', version: 'usando Visual Studio Community' },
+      { src: '/icons/mysql-logo.png', name: 'MySQL', version: 'version: MySQL 8' },
+      { src: '/icons/python-logo.png', name: 'Python', version: 'version: 2.7 to version: 3.10' },
+      { src: '/icons/balsamiq-logo.png', name: 'Balsamiq', version: 'Herramienta' },
+      { src: '/icons/figma-logo.png', name: 'Figma', version: 'Herramienta' }
     ])
     const MailTo = () => {
       window.location.href = 'mailto:mestaycubillos@gmail.com'
@@ -219,6 +266,7 @@ export default defineComponent({
     }
     return {
       links,
+      len,
       height,
       MailTo,
       Download,
