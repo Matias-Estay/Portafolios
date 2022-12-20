@@ -20,15 +20,14 @@
       <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12 centered-text q-mt-md">
         <div class="card-deck">
           <div class="card-proyect text-white shadow-9">
-            <img class="card-img" src="https://placeimg.com/512/512/any?t=1542453427022"/>
+            <img class="card-img" src="/images/python-app.png"/>
             <div class="card-img-overlay">
-              <h2 class="card-title">test 1</h2>
+              <h2 class="card-title">Python App</h2>
               <p class="card-text-proyect">
-                What is Lorem Ipsum?
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
-                unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
-                including versions of Lorem Ipsum.
+                Aplicación sencilla de Scrapping usando selenium de Python 3.10.1 para la generación de reportes de supermercados con sus productos.
+                <br/>
+                <br/>
+                <q-btn @click="Redirect(3)" style="background: rgb(13, 17, 21); color: white" :label="'Ir al Sitio'" />
               </p>
             </div>
           </div>
@@ -177,6 +176,9 @@ export default defineComponent({
           break
         case 2:
           window.open('https://miecvue3.netlify.app')
+          break
+        case 3:
+          window.open('https://github.com/Matias-Estay/MuestraScrapping')
           break
       }
     }
