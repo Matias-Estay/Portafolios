@@ -34,16 +34,15 @@
         </div>
       </div>
       <div class="col-4 centered-text">
-        <div class="card-deck">
-          <div class="card-proyect text-white shadow-9"><img class="card-img" src="https://placeimg.com/512/512/any?t=1542453427022"/>
+        <div class="card-deck pointer" @click="()=>{window.open('https://miec.live')}" >
+          <div class="card-proyect text-white shadow-9"><img class="card-img" src="/images/react-laravel-app.png"/>
             <div class="card-img-overlay">
-              <h2 class="card-title">test 1</h2>
+              <h2 class="card-title">Pokédex</h2>
               <p class="card-text-proyect">
-                What is Lorem Ipsum?
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
-                unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
-                including versions of Lorem Ipsum.
+                Una pequeña aplicación con tematica de pokémon desarrollada usando React 17, Laravel 9 y una base de datos MySQL.
+                <br/>
+                <br/>
+                Se usó el servicio de nube de Digital Ocean y Laravel Forge para CI/CD
               </p>
             </div>
           </div>

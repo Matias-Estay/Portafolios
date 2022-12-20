@@ -12,11 +12,12 @@
 }
 .card-proyect{
   overflow: hidden;
-  background-color: #345;
+  background-color: rgb(13, 17, 21);
   height: 400px;
   width: 400px;
  .card-img{
-  width: 100%;
+  width: 400px;
+  height: 400px;
  }
  &:hover{
    .card-img{
