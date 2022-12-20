@@ -80,19 +80,19 @@
         <div class="row q-col-gutter-md q-mt-md q-mb-md q-pr-xl q-pl-xl justify-center">
           <div class="col-6">
             <p >
-            Ingeniero civíl en informática y telecomunicaciones  de la Universidad Diego Portales en Chile, con más de 3 años de experiencia desarrollando aplicaciones principalmente como FrontEnd utilizando React o Vue para el rubro de la minería realizando
-            tareas de automatización de procesos matemáticos, generación de reportes, creando nuevas herramientas como manteniendo previas a través de nuevos módulos para las distintas herramientas desarrolladas para los
-            grupos disciplinarios dentro de la misma empresa.
+              Ingeniero civil en informática y telecomunicaciones de la Universidad Diego Portales en Chile, con más de 3 años de experiencia desarrollando aplicaciones principalmente como FrontEnd utilizando React o Vue para el rubro de la minería realizando
+              tareas de automatización de procesos matemáticos, generación de reportes, creando nuevas herramientas como manteniendo previas a través de nuevos módulos para las distintas herramientas desarrolladas para los
+              grupos disciplinarios dentro de la misma empresa.
             <br/>
-            Además de realizar labores de FrontEnd tengo experiencia de 2 años trabajando con BackEnd utilizando el framework Laravel y trabajando con bases de datos MySQL, me encanta trabajar y aprender
-            tecnologías nuevas, por lo que busco oportunidades que me permitan poner en práctica todo lo aprendido por mi cuenta o por mis pares.
+              Además de realizar labores de FrontEnd tengo experiencia de 2 años trabajando con BackEnd utilizando el framework Laravel y trabajando con bases de datos MySQL, me encanta trabajar y aprender
+              tecnologías nuevas, por lo que busco oportunidades que me permitan poner en práctica todo lo aprendido por mi cuenta o por mis pares.
             <br/>
-            Me gusta trabajar en equipos variados que me permitan conocer nuevas personas y poder compartir profesionalmente.
+              Me gusta trabajar en equipos variados que me permitan conocer nuevas personas y poder compartir profesionalmente.
             </p>
             <ul>
-              Logros Laborales:
+                Logros Laborales:
               <li>
-                Levantar junto al  equipo informático asignado un sistema integrado unificado con una sola base de datos.
+                Levantar junto al equipo informático asignado un sistema integrado unificado con una sola base de datos.
               </li>
               <li>
                 Realizar mantención a una aplicación hidráulica en un periodo aproximado de un año, donde la aplicación estuvo en desarrollo por más de 8 años y finalmente en 2021 liberarla a producción.
@@ -102,9 +102,9 @@
               </li>
             </ul>
             <ul>
-              Logros Personales:
+                Logros Personales:
               <li>
-                Terminar el diplimado en gestión técnica en ciberseguridad
+                Terminar el Diplomado en gestión técnica en ciberseguridad
               </li>
             </ul>
           </div>
