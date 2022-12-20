@@ -48,3 +48,19 @@ a:active {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@font-face {
+  font-family: 'faber';
+  src: url('../assets/fonts/faber_serif/FaberSerifReduced65.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'gentium';
+  src: url('../assets/fonts/gentium/GenAR102.TTF') format('truetype');
+}
+
+.faber{
+  font-family:'faber';
+}
+.gentium{
+  font-family:'gentium';
+}

@@ -1,19 +1,15 @@
 <template>
   <q-page>
-
     <div class="row justify-center fit">
       <div class="background fit" :style="{height:height+ 'px !important'}"
       >
-        <h1 class="full-width absolute text-white text-center" style="height:464px; top:2%">Matías Ignacio Estay Cubillos</h1>
+        <h1 class="full-width absolute text-white text-center gentium" style="height:464px; top:2%">Matías Ignacio Estay Cubillos</h1>
     </div>
       <div class="col-xl-11 col-xs-12 absolute" ref="total" style="background-color:white; top:15%">
         <!-- Proyects -->
         <div class="row">
           <div class="col-12 flex flex-center q-mt-xl text-h5">
-            <div class="container-title">
-              <img src="../assets/images/backtitle.png" :style="{'max-width':'26%', 'opacity':'0.1'}"/>
-              <div class="centered-title">Proyectos personales</div>
-            </div>
+              <div class="faber">Proyectos personales</div>
           </div>
         </div>
         <q-separator></q-separator>
@@ -77,10 +73,7 @@
         <q-separator></q-separator>
         <div class="row">
           <div class="col-12 flex flex-center q-mt-xl text-h5">
-            <div class="container-title">
-              <img src="../assets/images/backtitle.png" :style="{'max-width':'26%', 'opacity':'0.1'}"/>
-              <div class="centered-title">Sobre mí</div>
-            </div>
+            <div class="faber">Sobre mí</div>
           </div>
         </div>
         <q-separator></q-separator>
@@ -109,22 +102,20 @@ Cras a sem a ipsum euismod molestie nec sit amet dui. Phasellus sit amet placera
         <!-- Skills -->
         <div class="row">
           <div class="col-12 flex flex-center q-mt-xl text-h5">
-            <div class="container-title">
-              <img src="../assets/images/backtitle.png" :style="{'max-width':'26%', 'opacity':'0.1'}"/>
-              <div class="centered-title">Frameworks and Services</div>
-            </div>
+            <div class="faber">Frameworks y servicios</div>
           </div>
         </div>
         <q-separator></q-separator>
-        <div class="row separator q-col-gutter-md q-mt-md q-mb-md q-pr-xl q-pl-xl">
-          <div v-for="(item, index) in links" :key="index" class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center">
+        <div class="row separator q-col-gutter-md q-mt-md q-mb-md q-pr-xl q-pl-xl justify-center" >
+          <div v-for="(item, index) in links" :key="index" class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12 centered-text">
             <q-intersection
               transition="scale"
-              class="example-item"
+              style="height: 300px;width: 300px"
             >
                 <q-card class="q-ma-sm centered-text">
                   <img
                     :src="item.src"
+                    class="q-pt-sm"
                     style="height: 150px; width: 150px"
                     />
                   <q-card-section>
@@ -190,9 +181,9 @@ import { defineComponent, ref } from 'vue'
 export default defineComponent({
   name: 'IndexPage',
   mounted () {
-    this.height = this.$refs.total.offsetHeight + 1100
+    this.height = this.$refs.total.offsetHeight + 500
     window.addEventListener('resize', () => {
-      this.height = this.$refs.total.offsetHeight + 1100
+      if (this.$refs.total != null) { this.height = this.$refs.total.offsetHeight + 500 }
     })
   },
   setup () {
