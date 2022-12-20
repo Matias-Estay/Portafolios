@@ -43,6 +43,7 @@ a:active {
 .background {
   background:url("/images/background.png");
   /* Create the parallax scrolling effect */
+  aspect-ratio: 1;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
