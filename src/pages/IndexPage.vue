@@ -35,8 +35,8 @@
         </div>
       </div>
       <div class="col-4 centered-text">
-        <div class="card-deck pointer" @click="()=>{window.open('https://miec.live')}" >
-          <div class="card-proyect text-white shadow-9">
+        <div class="card-deck pointer" >
+          <div class="card-proyect text-white shadow-9" @click="Redirect(1)">
             <img class="card-img" src="/images/react-laravel-app.png"/>
             <div class="card-img-overlay">
               <h2 class="card-title">Pokédex</h2>
@@ -52,7 +52,7 @@
       </div>
       <div class="col-4 centered-text">
         <div class="card-deck pointer">
-          <div class="card-proyect text-white shadow-9" @click="()=>{window.open('https://miecvue3.netlify.app')}">
+          <div class="card-proyect text-white shadow-9" @click="Redirect(2)">
             <img class="card-img" src="/images/vue-app.png"/>
             <div class="card-img-overlay">
               <h2 class="card-title">Vue 3</h2>
@@ -165,10 +165,21 @@ export default defineComponent({
     const Download = () => {
       window.open('/files/CV_Matias_Estay_Cubillos.pdf')
     }
+    const Redirect = (cases) => {
+      switch (cases) {
+        case 1:
+          window.open('https://miec.live')
+          break
+        case 2:
+          window.open('https://miecvue3.netlify.app')
+          break
+      }
+    }
     return {
       links,
       MailTo,
-      Download
+      Download,
+      Redirect
     }
   }
 })
