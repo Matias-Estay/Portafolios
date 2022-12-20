@@ -1,7 +1,7 @@
 <template>
   <q-page>
     <div class="row justify-center fit">
-      <div class="background fit" :style="{height:height+ 'px !important'}"
+      <div class="background" :style="{height:height+ 'px !important'}"
       >
         <h1 class="full-width absolute text-white text-center gentium" style="top:2%;margin: 0;">Matías Ignacio Estay Cubillos</h1>
     </div>
