@@ -13,7 +13,7 @@
           </div>
         </div>
         <q-separator></q-separator>
-        <div class="row q-col-gutter-md q-mt-md q-mb-md q-pr-xl q-pl-xl justify-center">
+        <div class="row separator q-col-gutter-md q-mt-md q-mb-md q-pr-xl q-pl-xl justify-center">
           <div class="col-xl-8 col-lg-8 col-xs-12">
             <p >
               Ingeniero Civil en Informática y Telecomunicaciones de la Universidad Diego Portales de Chile, con más de 3 años de experiencia desarrollando aplicaciones principalmente como FrontEnd utilizando React o Vue para el rubro de la Minería realizando
@@ -145,7 +145,7 @@
           </div>
         </div>
         <q-separator></q-separator>
-        <div class="row separator q-col-gutter-md q-mt-md q-mb-md q-pr-xl q-pl-xl justify-center" >
+        <div class="row q-col-gutter-md q-mt-md q-mb-md q-pr-xl q-pl-xl justify-center" >
           <div v-for="(item, index) in len" :key="index" class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12 centered-text">
             <q-intersection
               transition="scale"
