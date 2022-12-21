@@ -56,20 +56,23 @@
         <q-separator></q-separator>
         <div class="row q-mt-sm q-mb-md justify-center">
           <div class="col-xl-4 col-lg-4 col-md-4 col-xs-12 centered-text q-mt-md">
-            <div class="card-deck">
-              <div class="card-proyect text-white shadow-9">
-                <img class="card-img" src="/images/python-app.png"/>
-                <div class="card-img-overlay">
-                  <h2 class="card-title">Python App</h2>
-                  <p class="card-text-proyect">
-                    Aplicación de muestra de Scrapping usando webdriver de selenium para <strong>Python 3.10.1</strong> para la generación de reportes de supermercados con sus productos.
-                    <br/>
-                    <br/>
-                    <q-btn @click="Redirect(3)" style="background: rgb(13, 17, 21); color: white" :label="'Ir al Sitio'" />
-                  </p>
+              <div class="card-deck pointer">
+                <div class="card-proyect text-white shadow-9" >
+                  <img class="card-img" src="/images/vue-app.png"/>
+                  <div class="card-img-overlay">
+                    <h2 class="card-title">Vue 3</h2>
+                    <p class="card-text-proyect">
+                        Primera app desarrollada como boceto para la aplicación "Pokédex", esta hecha en <strong>Vue 2.7</strong> y actualizada a <strong>Vue 3</strong> utilizando <strong>Bootstrap 5</strong>.
+                        <br/>
+                        <br/>
+                        Consume una API para la carga de información (https://pokeapi.co)  y está montada en Netlify
+                      <br/>
+                      <br/>
+                      <q-btn @click="Redirect(2)" style="background: rgb(13, 17, 21); color: white" :label="'Ir al Sitio'" />
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
           </div>
           <div class="col-xl-4 col-lg-4 col-md-4 col-xs-12 centered-text q-mt-md">
             <div class="card-deck pointer" >
@@ -91,19 +94,16 @@
             </div>
           </div>
           <div class="col-xl-4 col-lg-4 col-md-4 col-xs-12 centered-text q-mt-md">
-            <div class="card-deck pointer">
-              <div class="card-proyect text-white shadow-9" >
-                <img class="card-img" src="/images/vue-app.png"/>
+            <div class="card-deck">
+              <div class="card-proyect text-white shadow-9">
+                <img class="card-img" src="/images/python-app.png"/>
                 <div class="card-img-overlay">
-                  <h2 class="card-title">Vue 3</h2>
+                  <h2 class="card-title">Python App</h2>
                   <p class="card-text-proyect">
-                      Primera app desarrollada como boceto para la aplicación "Pokédex", esta hecha en <strong>Vue 2.7</strong> y actualizada a <strong>Vue 3</strong> utilizando <strong>Bootstrap 5</strong>.
-                      <br/>
-                      <br/>
-                      Consume una API para la carga de información (https://pokeapi.co)  y está montada en Netlify
+                    Aplicación de muestra de Scrapping usando webdriver de selenium para <strong>Python 3.10.1</strong> para la generación de reportes de supermercados con sus productos.
                     <br/>
                     <br/>
-                    <q-btn @click="Redirect(2)" style="background: rgb(13, 17, 21); color: white" :label="'Ir al Sitio'" />
+                    <q-btn @click="Redirect(3)" style="background: rgb(13, 17, 21); color: white" :label="'Ir al Sitio'" />
                   </p>
                 </div>
               </div>
