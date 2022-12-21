@@ -235,8 +235,8 @@ export default defineComponent({
       { src: '/icons/quasar-logo.png', name: 'Quasar', version: 'versión: 2.11.1' },
       { src: '/icons/react-logo.png', name: 'React', version: 'versión: 17' },
       { src: '/icons/material-ui-logo.png', name: 'Material UI', version: 'versión: 5.11.0' },
-      { src: '/icons/digital-ocean-logo.png', name: 'Digital Ocean', version: 'service' },
-      { src: '/icons/forge-logo.png', name: 'Laravel Forge', version: 'service' }
+      { src: '/icons/digital-ocean-logo.png', name: 'Digital Ocean', version: 'servicio' },
+      { src: '/icons/forge-logo.png', name: 'Laravel Forge', version: 'servicio' }
     ])
     const len = ref([
       { src: '/icons/csharp-logo.png', name: 'C#', version: 'usando Visual Studio Community' },
