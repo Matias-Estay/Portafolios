@@ -229,19 +229,19 @@ export default defineComponent({
   setup () {
     const height = ref(0)
     const links = ref([
-      { src: '/icons/bootstrap-logo.png', name: 'Bootstrap', version: 'version: 4 to version: 5' },
-      { src: '/icons/vue-logo.png', name: 'Vue', version: 'version: 2.7 to version: 3' },
-      { src: '/icons/laravel-logo.png', name: 'Laravel', version: 'version: 6 to version: 9' },
-      { src: '/icons/quasar-logo.png', name: 'Quasar', version: 'version: 2.11.1' },
-      { src: '/icons/react-logo.png', name: 'React', version: 'version: 17' },
-      { src: '/icons/material-ui-logo.png', name: 'Material UI', version: 'version: 5.11.0' },
+      { src: '/icons/bootstrap-logo.png', name: 'Bootstrap', version: 'versión: 4 a versión: 5' },
+      { src: '/icons/vue-logo.png', name: 'Vue', version: 'versión: 2.7 a versión: 3' },
+      { src: '/icons/laravel-logo.png', name: 'Laravel', version: 'versión: 6 a versión: 9' },
+      { src: '/icons/quasar-logo.png', name: 'Quasar', version: 'versión: 2.11.1' },
+      { src: '/icons/react-logo.png', name: 'React', version: 'versión: 17' },
+      { src: '/icons/material-ui-logo.png', name: 'Material UI', version: 'versión: 5.11.0' },
       { src: '/icons/digital-ocean-logo.png', name: 'Digital Ocean', version: 'service' },
       { src: '/icons/forge-logo.png', name: 'Laravel Forge', version: 'service' }
     ])
     const len = ref([
       { src: '/icons/csharp-logo.png', name: 'C#', version: 'usando Visual Studio Community' },
-      { src: '/icons/mysql-logo.png', name: 'MySQL', version: 'version: MySQL 8' },
-      { src: '/icons/python-logo.png', name: 'Python', version: 'version: 2.7 to version: 3.10' },
+      { src: '/icons/mysql-logo.png', name: 'MySQL', version: 'versión: MySQL 8' },
+      { src: '/icons/python-logo.png', name: 'Python', version: 'versión: 2.7 a versión: 3.10' },
       { src: '/icons/balsamiq-logo.png', name: 'Balsamiq', version: 'Herramienta' },
       { src: '/icons/figma-logo.png', name: 'Figma', version: 'Herramienta' }
     ])
