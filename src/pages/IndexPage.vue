@@ -5,8 +5,49 @@
       >
         <h1 class="full-width absolute text-white text-center gentium" style="top:2%;margin: 0;">Matías Ignacio Estay Cubillos</h1>
     </div>
-      <div class="col-xl-11 col-xs-12 absolute" ref="total" style="background-color:white; top:10%">
+      <div class="col-xl-11 col-lg-11 col-xs-12 absolute" ref="total" style="background-color:white; top:10%">
+        <!-- About -->
+        <div class="row">
+          <div class="col-12 flex flex-center q-mt-xl text-h5">
+            <div class="faber">Sobre mí</div>
+          </div>
+        </div>
+        <q-separator></q-separator>
+        <div class="row q-col-gutter-md q-mt-md q-mb-md q-pr-xl q-pl-xl justify-center">
+          <div class="col-xl-8 col-lg-8 col-xs-12">
+            <p >
+              Ingeniero civil en informática y telecomunicaciones de la Universidad Diego Portales en Chile, con más de 3 años de experiencia desarrollando aplicaciones principalmente como FrontEnd utilizando React o Vue para el rubro de la minería realizando
+              tareas de automatización de procesos matemáticos, generación de reportes, creando nuevas herramientas como manteniendo previas a través de nuevos módulos para las distintas herramientas desarrolladas para los
+              grupos disciplinarios dentro de la misma empresa.
+            <br/>
+              Además de realizar labores de FrontEnd tengo experiencia de 2 años trabajando con BackEnd utilizando el framework Laravel y trabajando con bases de datos MySQL, me encanta trabajar y aprender
+              tecnologías nuevas, por lo que busco oportunidades que me permitan poner en práctica todo lo aprendido por mi cuenta o por mis pares.
+            <br/>
+              Me gusta trabajar en equipos variados que me permitan conocer nuevas personas y poder compartir profesionalmente.
+            </p>
+            <ul>
+                Logros Laborales:
+              <li>
+                Levantar junto al equipo informático asignado un sistema integrado unificado con una sola base de datos.
+              </li>
+              <li>
+                Realizar mantención a una aplicación hidráulica en un periodo aproximado de un año, donde la aplicación estuvo en desarrollo por más de 8 años y finalmente en 2021 liberarla a producción.
+              </li>
+              <li>
+                Estandarizar procesos internos de la empresa con los reportes generados por las aplicaciones desarrolladas.
+              </li>
+            </ul>
+            <ul>
+                Logros Personales:
+              <li>
+                Terminar el Diplomado en gestión técnica en ciberseguridad
+              </li>
+            </ul>
+          </div>
+
+        </div>
         <!-- Proyects -->
+        <q-separator></q-separator>
         <div class="row">
           <div class="col-12 flex flex-center q-mt-xl text-h5">
               <div class="faber">Proyectos personales</div>
@@ -69,47 +110,6 @@
             </div>
           </div>
         </div>
-        <!-- About -->
-        <q-separator></q-separator>
-        <div class="row">
-          <div class="col-12 flex flex-center q-mt-xl text-h5">
-            <div class="faber">Sobre mí</div>
-          </div>
-        </div>
-        <q-separator></q-separator>
-        <div class="row q-col-gutter-md q-mt-md q-mb-md q-pr-xl q-pl-xl justify-center">
-          <div class="col-xl-6 col-lg-6 col-xs-12">
-            <p >
-              Ingeniero civil en informática y telecomunicaciones de la Universidad Diego Portales en Chile, con más de 3 años de experiencia desarrollando aplicaciones principalmente como FrontEnd utilizando React o Vue para el rubro de la minería realizando
-              tareas de automatización de procesos matemáticos, generación de reportes, creando nuevas herramientas como manteniendo previas a través de nuevos módulos para las distintas herramientas desarrolladas para los
-              grupos disciplinarios dentro de la misma empresa.
-            <br/>
-              Además de realizar labores de FrontEnd tengo experiencia de 2 años trabajando con BackEnd utilizando el framework Laravel y trabajando con bases de datos MySQL, me encanta trabajar y aprender
-              tecnologías nuevas, por lo que busco oportunidades que me permitan poner en práctica todo lo aprendido por mi cuenta o por mis pares.
-            <br/>
-              Me gusta trabajar en equipos variados que me permitan conocer nuevas personas y poder compartir profesionalmente.
-            </p>
-            <ul>
-                Logros Laborales:
-              <li>
-                Levantar junto al equipo informático asignado un sistema integrado unificado con una sola base de datos.
-              </li>
-              <li>
-                Realizar mantención a una aplicación hidráulica en un periodo aproximado de un año, donde la aplicación estuvo en desarrollo por más de 8 años y finalmente en 2021 liberarla a producción.
-              </li>
-              <li>
-                Estandarizar procesos internos de la empresa con los reportes generados por las aplicaciones desarrolladas.
-              </li>
-            </ul>
-            <ul>
-                Logros Personales:
-              <li>
-                Terminar el Diplomado en gestión técnica en ciberseguridad
-              </li>
-            </ul>
-          </div>
-
-        </div>
         <q-separator></q-separator>
         <!-- Skills -->
         <div class="row">
@@ -139,7 +139,7 @@
           </div>
         </div>
         <q-separator></q-separator>
-        <!-- Skills -->
+        <!-- Skills PT.2-->
         <div class="row">
           <div class="col-12 flex flex-center q-mt-xl text-h5">
             <div class="faber">Otros Lenguajes y herramientas</div>
