@@ -16,12 +16,12 @@
         <div class="row q-col-gutter-md q-mt-md q-mb-md q-pr-xl q-pl-xl justify-center">
           <div class="col-xl-8 col-lg-8 col-xs-12">
             <p >
-              Ingeniero civil en informática y telecomunicaciones de la Universidad Diego Portales en Chile, con más de 3 años de experiencia desarrollando aplicaciones principalmente como FrontEnd utilizando React o Vue para el rubro de la minería realizando
-              tareas de automatización de procesos matemáticos, generación de reportes, creando nuevas herramientas como manteniendo previas a través de nuevos módulos para las distintas herramientas desarrolladas para los
-              grupos disciplinarios dentro de la misma empresa.
+              Ingeniero Civil en Informática y Telecomunicaciones de la Universidad Diego Portales de Chile, con más de 3 años de experiencia desarrollando aplicaciones principalmente como FrontEnd utilizando React o Vue para el rubro de la Minería realizando
+              tareas de automatización de procesos matemáticos, generación de reportes, creando nuevas herramientas y optimizando previas a través de nuevos módulos para los
+              grupos disciplinarios dentro de la misma Empresa.
             <br/>
-              Además de realizar labores de FrontEnd tengo experiencia de 2 años trabajando con BackEnd utilizando el framework Laravel y trabajando con bases de datos MySQL, me encanta trabajar y aprender
-              tecnologías nuevas, por lo que busco oportunidades que me permitan poner en práctica todo lo aprendido por mi cuenta o por mis pares.
+              Además de realizar labores de FrontEnd tengo experiencia de dos (2) años trabajando con BackEnd utilizando el framework Laravel y trabajando con bases de datos MySQL, me encanta trabajar y aprender
+              tecnologías nuevas, por lo que busco oportunidades que me permitan poner en práctica todo lo aprendido.
             <br/>
               Me gusta trabajar en equipos variados que me permitan conocer nuevas personas y poder compartir profesionalmente.
             </p>
@@ -44,7 +44,6 @@
               </li>
             </ul>
           </div>
-
         </div>
         <!-- Proyects -->
         <q-separator></q-separator>
