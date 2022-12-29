@@ -54,7 +54,7 @@
         </div>
         <q-separator></q-separator>
         <div class="row q-mt-sm q-mb-md justify-center">
-          <div class="col-xl-4 col-lg-4 col-md-4 col-xs-12 centered-text q-mt-md">
+          <div class="col-xl-3 col-lg-3 col-md-3 col-xs-12 centered-text q-mt-md">
               <div class="card-deck pointer">
                 <div class="card-proyect text-white shadow-9" >
                   <img class="card-img" src="/images/vue-app.png"/>
@@ -73,7 +73,7 @@
                 </div>
               </div>
           </div>
-          <div class="col-xl-4 col-lg-4 col-md-4 col-xs-12 centered-text q-mt-md">
+          <div class="col-xl-3 col-lg-3 col-md-3 col-xs-12 centered-text q-mt-md">
             <div class="card-deck pointer" >
               <div class="card-proyect text-white shadow-9">
                 <img class="card-img" src="/images/react-laravel-app.png"/>
@@ -92,7 +92,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-4 col-lg-4 col-md-4 col-xs-12 centered-text q-mt-md">
+          <div class="col-xl-3 col-lg-3 col-md-3 col-xs-12 centered-text q-mt-md">
             <div class="card-deck">
               <div class="card-proyect text-white shadow-9">
                 <img class="card-img" src="/images/python-app.png"/>
@@ -103,6 +103,22 @@
                     <br/>
                     <br/>
                     <q-btn @click="Redirect(3)" style="background: rgb(13, 17, 21); color: white" :label="'Ir al Sitio'" />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-3 col-xs-12 centered-text q-mt-md">
+            <div class="card-deck">
+              <div class="card-proyect text-white shadow-9">
+                <img class="card-img" src="/images/musica-app.png"/>
+                <div class="card-img-overlay">
+                  <h2 class="card-title">Quasar Web</h2>
+                  <p class="card-text-proyect">
+                    Web desarrollada para la empresa Queremos más música, donde se desarrollo una página de bienvenida con Quasar 2.11.*, usando un Backend programado en Nodejs para envió de correos.
+                    <br/>
+                    <br/>
+                    <q-btn @click="Redirect(4)" style="background: rgb(13, 17, 21); color: white" :label="'Ir al Sitio'" />
                   </p>
                 </div>
               </div>
@@ -260,6 +276,9 @@ export default defineComponent({
           break
         case 3:
           window.open('https://github.com/Matias-Estay/MuestraScrapping')
+          break
+        case 4:
+          window.open('https://queremosmusica.netlify.app')
           break
       }
     }
