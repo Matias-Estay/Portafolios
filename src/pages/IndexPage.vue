@@ -54,7 +54,7 @@
         </div>
         <q-separator></q-separator>
         <div class="row q-mt-sm q-mb-md justify-center">
-          <div class="col-xl-3 col-lg-3 col-md-3 col-xs-12 centered-text q-mt-md">
+          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12 centered-text q-mt-md">
               <div class="card-deck pointer">
                 <div class="card-proyect text-white shadow-9" >
                   <img class="card-img" src="/images/vue-app.png"/>
@@ -73,7 +73,7 @@
                 </div>
               </div>
           </div>
-          <div class="col-xl-3 col-lg-3 col-md-3 col-xs-12 centered-text q-mt-md">
+          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12 centered-text q-mt-md">
             <div class="card-deck pointer" >
               <div class="card-proyect text-white shadow-9">
                 <img class="card-img" src="/images/react-laravel-app.png"/>
@@ -92,7 +92,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-3 col-lg-3 col-md-3 col-xs-12 centered-text q-mt-md">
+          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12 centered-text q-mt-md">
             <div class="card-deck">
               <div class="card-proyect text-white shadow-9">
                 <img class="card-img" src="/images/python-app.png"/>
@@ -108,7 +108,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-3 col-lg-3 col-md-3 col-xs-12 centered-text q-mt-md">
+          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12 centered-text q-mt-md">
             <div class="card-deck">
               <div class="card-proyect text-white shadow-9">
                 <img class="card-img" src="/images/musica-app.png"/>
