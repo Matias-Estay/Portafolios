@@ -78,7 +78,7 @@
               <div class="card-proyect text-white shadow-9">
                 <img class="card-img" src="/images/react-laravel-app.png"/>
                 <div class="card-img-overlay">
-                  <h2 class="card-title">Pokédex</h2>
+                  <h2 class="card-title">React Laravel</h2>
                   <p class="card-text-proyect">
                     Una aplicación con temática de Pokémon desarrollada usando <strong>React 17</strong>, <strong>Laravel 9</strong> y una base de datos <strong>MySQL</strong>.
                     <br/>
