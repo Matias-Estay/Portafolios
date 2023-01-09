@@ -55,8 +55,12 @@ export default defineComponent({
     const MailTo = () => {
       window.location.href = 'mailto:mestaycubillos@gmail.com'
     }
+    const Download = () => {
+      window.open('/files/CV_Matias_Estay_Cubillos.pdf')
+    }
     return {
-      MailTo
+      MailTo,
+      Download
     }
   }
 })
