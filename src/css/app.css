@@ -1,3 +1,61 @@
+@media (min-width: 0px) {
+  .responsive{
+    max-height:  calc(11rem + 1vw) !important;
+  }
+  .responsive,
+  h1{
+    font-size:  calc(1.4rem + 1vw);
+  }
+  h3{
+    font-size:  calc(1rem + 1vw);
+  }
+}
+
+@media (min-width: 599.99px) {
+  .responsive{
+    max-height:  calc(12rem + 1vw) !important;
+  }
+  .responsive,
+  h1{
+    font-size:  calc(1.4rem + 1vw);
+  }
+  h3{
+    font-size:  calc(1rem + 1vw);
+  }
+}
+
+@media (min-width: 1023.99px){
+  .responsive{
+    max-height:  calc(12rem + 1vw) !important;
+  }
+  .responsive,
+  h1{
+    font-size:  calc(1.4rem + 1vw);
+  }
+  h3{
+    font-size:  calc(1rem + 1vw);
+  }
+}
+
+@media (min-width: 1439.99px){
+  .responsive{
+    max-height:  calc(13rem + 1vw) !important;
+  }
+  .responsive,
+  h1{
+    font-size:  calc(1.4rem + 1vw);
+  }
+  h3{
+    font-size:  calc(1rem + 1vw);
+  }
+}
+
+.with-background{
+  position: absolute;
+  overflow-y: auto;
+  top: 0;
+}
+
 .container-title {
   position: relative;
   text-align: center;
@@ -14,7 +72,7 @@
 }
 
 .separator{
-  background-color: rgba(128, 128, 128, 0.071);
+  background-color: rgba(128, 128, 128, 0.8);
 }
 
 .pointer{
@@ -33,23 +91,6 @@ a:visited {
 
 a:active {
   color: white;
-}
-
-.border-footer{
-  border-right: solid 1px #fff;
-  position: relative;
-}
-
-.background {
-  background:url("/images/background.jpg");
-  /* Create the parallax scrolling effect */
-  width: 100%;
-  height: 100%;
-  -webkit-transform: translateZ(1);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 @font-face {
