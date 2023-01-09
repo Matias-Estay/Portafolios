@@ -10,37 +10,34 @@
               <q-separator dark inset />
             </q-card-section>
             <q-card-section>
-              <div class="row justify-center q-mt-lg">
-                <div class="col-xl-3">
-                  <a class="q-mr-lg" :href="'https://github.com/Matias-Estay'">
-                    <q-icon class="bi bi-github" size="xl" color="black"/>
-                  </a>
+              <div class="row justify-center q-mt-lg q-gutter-xs">
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-xs-12">
+                  <div class="row justify-center">
+                    <a class="q-mr-lg" :href="'https://github.com/Matias-Estay'">
+                      <q-icon class="bi bi-github" size="xl" color="black"/>
+                    </a>
+                    <h6 class="q-mt-none" @click="Download">Github</h6>
+                  </div>
                 </div>
-                <div class="col-xl-3">
-                  <div class="row">
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-xs-12">
+                  <div class="row justify-center">
                     <a class="q-mr-lg" :href="'https://www.linkedin.com/in/matías-ignacio-estay-cubillos-30295217a/'">
                       <q-icon class="bi bi-linkedin q-mr-md" size="xl" color="blue"/>
                     </a>
                     <h6 class="q-mt-none" @click="Download">Linkedin</h6>
                   </div>
                 </div>
-                <div class="col-xl-3">
-                  <div class="row">
+                <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                  <div class="row justify-center">
                     <q-icon class="bi bi-envelope pointer q-mr-md" size="xl" @click="MailTo" color="red"/>
-                    <h6 class="q-mt-none" @click="Download">Enviame un Correo</h6>
+                    <h6 class="q-mt-none" @click="Download">Correo</h6>
                   </div>
                 </div>
-                <div class="col-xl-3">
-                  <div class="row">
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-xs-12">
+                  <div class="row justify-center">
                     <q-icon class="bi bi-download pointer q-mr-md" size="xl" @click="Download"/>
                     <h6 class="q-mt-none" @click="Download">Descargar CV</h6>
                   </div>
-                </div>
-                <div class="row justify-center">
-
-                </div>
-                <div class="row q-mt-md justify-center pointer">
-
                 </div>
               </div>
             </q-card-section>
