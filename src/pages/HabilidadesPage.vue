@@ -37,7 +37,7 @@
             </div>
           </div>
           <q-separator  color="white"></q-separator>
-          <div class="row separator q-col-gutter-md q-mt-md q-mb-md q-pr-xl q-pl-xl justify-center" >
+          <div class="row separator q-pt-xl q-mt-md justify-center" >
             <div v-for="(item, index) in len" :key="index" class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12 centered-text">
               <q-intersection
                 transition="scale"
