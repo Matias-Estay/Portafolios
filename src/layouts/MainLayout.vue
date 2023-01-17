@@ -10,6 +10,8 @@
           class="bg-grey-5"
           shrink
           narrow-indicator
+          outside-arrows
+          mobile-arrows
         >
           <q-route-tab class="text-black" exact to="/" label="Inicio" />
           <q-route-tab class="text-black" exact to="/about" label="Sobre mí" />
