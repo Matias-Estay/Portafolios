@@ -2,11 +2,11 @@
   <q-page>
     <q-img src="/icons/background-proyectos.jpg" class="fit fixed"/>
     <div id="container" class="with-background full-width">
-      <div class="row justify-center" style="margin-top:12%">
+      <div class="row justify-center" style="margin-top:9%">
         <div class="col-xl-11 col-lg-11 col-md-11 col-sm-11 col-xs-11">
           <q-card dark bordered class="bg-black-9" style="background:rgba(0,0,0,0.6)" >
             <q-card-section>
-              <h3 style="margin:0">Mis Proyectos</h3>
+              <h3 style="margin:0">Proyectos Personales</h3>
               <q-separator dark inset />
             </q-card-section>
             <q-card-section>
@@ -81,6 +81,54 @@
                     </div>
                   </div>
                 </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12 centered-text q-mt-md">
+                  <div class="card-deck">
+                    <div class="card-proyect text-white shadow-9">
+                      <img class="card-img" src="/images/biblioteca-app.png"/>
+                      <div class="card-img-overlay">
+                        <h2 class="card-title">Biblioteca</h2>
+                        <p class="card-text-proyect">
+                          Web que utiliza la IA documental de chatdoc, cuya función es la carga de documentos y compatir el chat de manera publica para su uso (usada por el chat de CV).
+                          <br/>
+                          <br/>
+                          <q-btn @click="Redirect(5)" style="background: rgb(13, 17, 21); color: white" :label="'Ir al Sitio'" />
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12 centered-text q-mt-md">
+                  <div class="card-deck">
+                    <div class="card-proyect text-white shadow-9">
+                      <img class="card-img" src="/images/Productos-app.png"/>
+                      <div class="card-img-overlay">
+                        <h2 class="card-title">Productos</h2>
+                        <p class="card-text-proyect">
+                          Administrador de productos realziado en 1 día cuyo objetivo era la utilización de NUXT 2 y consumo de APIs, para acceder se debe utilizar la cuenta admin@mail.com y password admin1234.
+                          <br/>
+                          <br/>
+                          <q-btn @click="Redirect(6)" style="background: rgb(13, 17, 21); color: white" :label="'Ir al Sitio'" />
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12 centered-text q-mt-md">
+                  <div class="card-deck">
+                    <div class="card-proyect text-white shadow-9">
+                      <img class="card-img" src="/images/musica-app.png"/>
+                      <div class="card-img-overlay">
+                        <h2 class="card-title">Cursos</h2>
+                        <p class="card-text-proyect">
+                          Web sin fines de lucro que comparte cursos de packtpub.
+                          <br/>
+                          <br/>
+                          <q-btn @click="Redirect(5)" style="background: rgb(13, 17, 21); color: white" :label="'Ir al Sitio'" />
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
               </div>
             </q-card-section>
           </q-card>
@@ -107,6 +155,12 @@ export default defineComponent({
           break
         case 4:
           window.open('https://queremosmusica.netlify.app')
+          break
+        case 5:
+          window.open('https://miec-library.store')
+          break
+        case 6:
+          window.open('https://miecnuxt.netlify.app')
           break
       }
     }

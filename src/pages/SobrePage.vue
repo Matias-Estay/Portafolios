@@ -27,13 +27,19 @@
               <ul>
                   Logros Laborales:
                 <li>
+                  Capacitar e integrar un equipo informático.
+                </li>
+                <li>
+                  Estandarizar procesos internos.
+                </li>
+                <li>
                   Levantar junto al equipo informático asignado un sistema integrado unificado con una sola base de datos.
                 </li>
                 <li>
                   Realizar mantención a una aplicación hidráulica en un periodo aproximado de un año, donde la aplicación estuvo en desarrollo por más de 8 años y finalmente en 2021 liberarla a producción.
                 </li>
                 <li>
-                  Estandarizar procesos internos de la empresa con los reportes generados por las aplicaciones desarrolladas.
+                  Generar reportabilidad a los clientes.
                 </li>
               </ul>
               <ul>
@@ -47,5 +53,5 @@
         </div>
       </div>
     </div>
-  </q-page>
+</q-page>
 </template>
