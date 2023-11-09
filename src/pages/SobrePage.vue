@@ -45,7 +45,10 @@
               <ul>
                   Logros Personales:
                 <li>
-                  Terminar el Diplomado en gestión técnica en ciberseguridad
+                  Capacitación en gestión técnica en ciberseguridad (Diplomatura).
+                </li>
+                <li>
+                  Capacitación en metodologías agiles y DeVOps (Diplomatura).
                 </li>
               </ul>
             </q-card-section>

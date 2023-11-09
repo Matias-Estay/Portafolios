@@ -104,7 +104,7 @@
                       <div class="card-img-overlay">
                         <h2 class="card-title">Productos</h2>
                         <p class="card-text-proyect">
-                          Administrador de productos realziado en 1 día cuyo objetivo era la utilización de NUXT 2 y consumo de APIs, para acceder se debe utilizar la cuenta admin@mail.com y password admin1234.
+                          Administrador de productos realziado en 1 día cuyo objetivo era la utilización de NUXT 2 y consumo de APIs, para acceder se debe utilizar la cuenta admin@mail.com y password admin123.
                           <br/>
                           <br/>
                           <q-btn @click="Redirect(6)" style="background: rgb(13, 17, 21); color: white" :label="'Ir al Sitio'" />
