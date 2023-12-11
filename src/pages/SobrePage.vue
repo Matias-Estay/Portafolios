@@ -15,7 +15,7 @@
             </q-card-section>
             <q-card-section>
               <p >
-                Ingeniero Civil en Informática y Telecomunicaciones de la Universidad Diego Portales de Chile, con más de 3 años de experiencia desarrollando aplicaciones principalmente como FrontEnd utilizando React o Vue para el rubro de la Minería realizando
+                Ingeniero Civil en Informática y Telecomunicaciones de la Universidad Diego Portales de Chile, con más de 4 años de experiencia desarrollando aplicaciones principalmente como FrontEnd utilizando React o Vue para el rubro de la Minería realizando
                 tareas de automatización de procesos matemáticos, generación de reportes, creando nuevas herramientas y optimizando previas a través de nuevos módulos para los
                 grupos disciplinarios dentro de la misma Empresa.
               <br/>
